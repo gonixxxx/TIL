@@ -1,0 +1,6 @@
+- Optional chaining(?.) [[참고](https://ko.javascript.info/optional-chaining)]
+    - `?.`은 `?.`'앞’의 평가 대상이 `undefined`나 `null`이면 평가를 멈추고 `undefined`를 반환함
+    - 존재하지 않은 값에 접근할 경우 발생하는 에러를 방지하기 위해 사용
+    - **주의**
+        - 존재하지 않아도 괜찮은 대상에만 사용해야 함
+        - 읽거나 삭제하기에는 사용할 수 있지만 쓰기에는 사용X
